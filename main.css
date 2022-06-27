@@ -1,0 +1,19 @@
+*{box-sizing: border-box ;}
+body{
+    background-color: rgba(0,0,0,.5);
+    font-family: 'Montserrat', sans-serif;;
+}
+.main-title{
+    background-color: rgba(0,0,0,.2);
+    color:snow;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 35pt;
+    font-family: 'Barriecito', cursive;
+    width: 500px;
+    text-shadow: 5px 5px 5px black;
+}
+.para{
+
+    text-decoration: line-through;
+}
