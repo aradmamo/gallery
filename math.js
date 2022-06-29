@@ -9,7 +9,7 @@ class Gallery{
     }
     getname(){
       if(this.name =='A great picture'){
-        return `${this.name}<p class = 'h6 bg-danger text-dark w-50'> best seller </p>`
+        return `${this.name}<p class = 'h6 bg-danger text-dark w-25'> Best Sale </p>`
 
       }else{
         return `${this.name}`
@@ -31,7 +31,7 @@ class Gallery{
         }
         else if(this.available === true){
            
-            return `<div class='btn btn-outline-primary text-info'>Buy It Now</div>`
+            return `<div class='btn btn-outline-dark text-light'>Buy It Now</div>`
 
         } 
        
